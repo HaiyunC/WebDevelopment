@@ -1,0 +1,37 @@
+body{
+	background-image: url(https://source.unsplash.com/xulIYVIbYIc);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: Lato;
+	color: white;
+}
+
+html{
+	height: 100%
+}
+
+.navbar-inverse{
+	background-color: white;
+	border-color: white;
+}
+
+#content{
+	text-align: center;
+	padding-top: 20%;
+	text-shadow: 0px 4px 3px rbga(0,0,0,0.4),
+				 0px 8px 13px rbga(0,0,0,0.1),
+				 0px 18px 23px rbga(0,0,0,0.1);
+}
+
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rbga(0,0,0,0.2);
+}
